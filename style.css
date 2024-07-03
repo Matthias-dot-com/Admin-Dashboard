@@ -13,7 +13,7 @@ body {
 .container {
     display: grid;
     grid-template-columns: 1fr 3fr;
-    grid-template-rows: 1fr 3fr;
+    grid-template-rows: 1fr 2fr;
     padding: 10px;
     height: 100%;
 }
@@ -36,14 +36,18 @@ body {
     background-color: rgb(31, 137, 230);
     color: white;
     display: grid;
-    grid-template-rows: 0.5fr 2fr;
+    grid-template-rows: 0.5fr 2fr 1fr;
     grid-template-columns: 1fr;
  
 }
 
 .side-logo{
-    border: 1px rgb(255, 255, 255) solid;
     grid-row: 1;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 30px;
 }
 
 .firstList{
