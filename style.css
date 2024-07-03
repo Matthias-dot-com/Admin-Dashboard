@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    padding: 10px;
+    background-color: aquamarine;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 3fr;
+    padding: 10px;
+    height: 100%;
+}
+
+.header {
+    grid-row: 1;
+    grid-column: 2/5;
+    background-color: white;
+}
+
+.main {
+    grid-row: 2/5;
+    grid-column: 2/5;
+    background-color: darkgrey;
+}
+
+.sidebar {
+    grid-row: 1/5;
+    grid-column: 1;
+    background-color: rgb(31, 137, 230);
+    color: white;
+    display: grid;
+    grid-template-rows: 0.5fr 2fr;
+    grid-template-columns: 1fr;
+ 
+}
+
+.side-logo{
+    border: 1px rgb(255, 255, 255) solid;
+    grid-row: 1;
+}
+
+.firstList{
+    border: 1px rebeccapurple solid;
+    grid-row: 2;
+}
+
